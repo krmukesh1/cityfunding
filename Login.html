@@ -47,44 +47,53 @@
       </div>
     </nav> -->
     <!-- home Page -->
-    <section id="login">
-      <div class="container">
-        <div class="login-content">
-          <span>Don't have account?</span>
-          <a href="Signup.html">Create account</a>
-          <form>
-            <h1>Login to your account</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              doloremque natus tempore ex officiis culpa consequatur temporibus
-              ut hic quia.
-            </p>
-            <div class="input-group">
-              <label class="email" for="email">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                placeholder="abc@braininventory.com"
-                name="email"
-                autocomplete="off"
-              />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <section id="login">
+            <div class="login-content">
+              <span>Don't have account?</span>
+              <a href="Signup.html">Create account</a>
+              <form>
+                <h1 class="mb-3">Login to your account</h1>
+                <p class="mb-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus doloremque natus tempore ex officiis culpa
+                </p>
+                <div class="input-group">
+                  <label class="email" for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="abc@braininventory.com"
+                    name="email"
+                    autocomplete="off"
+                  />
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="input-group">
+                  <label class="password" for="password">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="password"
+                    name="password"
+                  />
+                  <i class="fa fa-eye"></i>
+                </div>
+                <div class="btn-group">
+                  <button class="btn-primary" type="submit">Login</button>
+                </div>
+              </form>
             </div>
-            <div class="input-group">
-              <label class="password" for="password">Password</label>
-              <input
-                type="password"
-                class="form-control"
-                placeholder="password"
-                name="password"
-              />
-            </div>
-            <div class="btn-group">
-              <button class="btn-primary" type="submit">Login</button>
-            </div>
-          </form>
+          </section>
+        </div>
+        <div class="col-md-6">
+          <div class="back"></div>
         </div>
       </div>
-    </section>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

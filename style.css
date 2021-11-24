@@ -66,6 +66,21 @@ section#home i.fa.fa-search {
   margin-left: 15px;
 }
 /* login */
+section#login {
+  padding: 100px 90px;
+}
+form {
+  padding: 100px 0;
+}
+section#login input.form-control {
+  border: 0;
+}
+section#login .input-group {
+  border: 1px solid;
+  padding: 10px 10px;
+  margin: 30px 0;
+  border-radius: 17px;
+}
 section#login .form-control:hover {
   border-color: cyan;
 }
@@ -83,4 +98,30 @@ label.password {
   z-index: 999;
   left: 20px;
   padding: 0 10px;
+}
+section#login i.fa.fa-envelope,
+section#login i.fa.fa-eye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#login button.btn-primary {
+  padding: 14px;
+  width: 100%;
+  border-radius: 17px;
+}
+section#login .btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  box-shadow: none !important;
+}
+section#login .btn-group {
+  width: 100%;
+}
+.back {
+  background: #f8f9fa;
+  width: 100%;
+  height: 100%;
 }
