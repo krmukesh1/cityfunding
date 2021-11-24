@@ -129,7 +129,12 @@ section#login .form-control:focus {
   box-shadow: none !important;
   border-color: #0d6efd;
 }
-
+section#login .input-group:focus-within {
+  border-color: #0d6efd;
+}
+label.email:focus-within {
+  color: #0d6efd !important;
+}
 label.email,
 label.password {
   position: absolute;
@@ -172,14 +177,20 @@ select#cars {
 :focus-visible {
   outline: none !important;
 }
-.link {
+.select .link {
   display: none;
 }
-.links {
+.select .links {
   display: block;
 }
 .select {
   margin: 0 0 20px 0;
+}
+.select li a {
+  color: #000;
+}
+.select li a:hover {
+  color: #000;
 }
 @media (max-width: 1068px) {
   section#home {
