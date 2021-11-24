@@ -1,7 +1,26 @@
+@font-face {
+  font-family: "SFPRODISPLAYREGULAR";
+  src: url("fonts/SFPRODISPLAYREGULAR.woff");
+}
+@font-face {
+  font-family: "SFPRODISPLAYMEDIUM";
+  src: url("fonts/SFPRODISPLAYMEDIUM.woff");
+}
+@font-face {
+  font-family: "SFPRODISPLAYBOLD";
+  src: url("fonts/SFPRODISPLAYBOLD.woff");
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "SFPRODISPLAYREGULAR";
+}
+h1 {
+  font-family: "SFPRODISPLAYBOLD";
+}
+p {
+  font-family: "SFPRODISPLAYREGULAR";
 }
 a.navbar-brand {
   border: 1px solid #0d6efd;
@@ -39,11 +58,15 @@ section#home .content {
   justify-content: center;
   margin: 0 auto;
 }
+section#home .content p.mb-3 {
+  opacity: 0.7;
+}
 section#home p.text-left {
   text-align: left;
 }
 section#home input.form-control {
   border: 0;
+  font-size: 24px;
 }
 section#home .form-control:focus {
   box-shadow: none !important;
@@ -74,8 +97,21 @@ p.mb-2 {
 section#login {
   padding: 100px 80px;
 }
+section#login span {
+  margin-right: 10px;
+  color: #c3c3cf;
+}
+section#login span a {
+  text-decoration: none;
+  font-family: "SFPRODISPLAYMEDIUM";
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 form {
   padding: 100px 0;
+}
+form p.mb-3 {
+  color: #c3c3cf;
 }
 section#login input.form-control {
   border: 0;
