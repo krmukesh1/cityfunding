@@ -333,6 +333,9 @@ section#setting a.sideactive {
 section#setting a {
   color: #adb5bd;
 }
+section#setting .billing a {
+  color: #0d6efd;
+}
 section#setting .contents {
   display: flex;
   justify-content: space-between;
