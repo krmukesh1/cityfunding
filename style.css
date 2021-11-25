@@ -310,7 +310,20 @@ section#download .downloadbutton {
 section#download .content a {
   color: #222;
 }
+/* Setting */
+section#setting .billing {
+  overflow: auto;
+}
+section#setting .billing th {
+  color: #adb5bd;
+  font-weight: 500;
+  padding: 10px 20px;
+}
 
+section#setting .billing td {
+  padding: 10px 20px !important;
+  font-family: "SFPRODISPLAYREGULAR";
+}
 @media (max-width: 1068px) {
   section#home {
     padding: 100px 0px;
