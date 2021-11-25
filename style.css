@@ -251,7 +251,7 @@ section#table i.fa.fa-eye {
   padding: 0px 10px;
   cursor: pointer;
 }
-section#table td {
+td {
   font-family: "SFPRODISPLAYBOLD";
 }
 .table > :not(:last-child) > :last-child > * {
@@ -260,6 +260,31 @@ section#table td {
 #box-right {
   left: 50%;
   width: 50%;
+}
+/* portfoliopage */
+
+.wrapper {
+  overflow: auto;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid #dee2e6;
+}
+section#portfoliopage .table {
+  margin-bottom: 0rem;
+}
+section#portfoliopage th {
+  width: 81px;
+  color: #adb5bd;
+  font-weight: 500;
+}
+section#portfoliopage th,
+td {
+  padding: 12px 30px !important;
+  border: 1px solid #cccccc;
+}
+section#portfoliopage i.fa.fa-eye {
+  font-size: 24px;
+  padding: 0px 10px;
+  cursor: pointer;
 }
 @media (max-width: 1068px) {
   section#home {
