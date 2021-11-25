@@ -286,6 +286,36 @@ section#portfoliopage i.fa.fa-eye {
   padding: 0px 10px;
   cursor: pointer;
 }
+/* PortfolioHistory */
+section#download {
+  padding: 20px;
+}
+section#download .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section#download .downloadbutton {
+  border: 1px solid #0d6efd;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+section#download .content a {
+  color: #222;
+}
+section#portfoliohistory th {
+  color: #adb5bd;
+  font-weight: 500;
+}
+section#portfoliohistory .table {
+  margin-bottom: 0rem;
+}
+section#portfoliohistory th,
+td {
+  padding: 12px 30px !important;
+  border: 1px solid #cccccc;
+}
 @media (max-width: 1068px) {
   section#home {
     padding: 100px 0px;
