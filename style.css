@@ -208,6 +208,59 @@ select#cars {
 .select li a:hover {
   color: #000;
 }
+/* FIlter */
+section#filter {
+  padding: 0px 0 40px 0;
+}
+section#filter form {
+  padding: 0;
+}
+section#filter input.form-control {
+  border: 0;
+  font-size: 16px;
+}
+section#filter .form-control:focus {
+  box-shadow: none !important;
+}
+section#filter .btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+section#filter .input-group {
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+section#filter button.btn.btn-default {
+  background: #0d6efd;
+  padding: 7px 20px;
+  border-radius: 15px !important;
+  color: #fff;
+}
+section#filter i.fa.fa-search {
+  margin-left: 15px;
+}
+section#table th {
+  width: 81px;
+  color: #adb5bd;
+  font-weight: 500;
+}
+section#table i.fa.fa-eye {
+  font-size: 24px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+section#table td {
+  font-family: "SFPRODISPLAYBOLD";
+}
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #dee2e6;
+}
+#box-right {
+  left: 50%;
+  width: 50%;
+}
 @media (max-width: 1068px) {
   section#home {
     padding: 100px 0px;
@@ -223,5 +276,9 @@ select#cars {
   }
   section#login {
     padding: 100px 0px;
+  }
+  #box-right {
+    left: 0%;
+    width: 100%;
   }
 }
