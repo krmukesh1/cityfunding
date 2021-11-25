@@ -333,6 +333,40 @@ section#setting a.sideactive {
 section#setting a {
   color: #adb5bd;
 }
+section#setting .contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.swiper-button-next {
+  top: 15%;
+  right: 2rem;
+}
+
+.swiper-button-prev {
+  top: 15%;
+  right: 5rem;
+  left: auto;
+}
+.card {
+  height: 130px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid #007aff;
+  border-radius: 1rem;
+  background: #fff;
+  color: #007aff;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1rem;
+}
+.card-slider {
+  padding: 50px 0;
+}
 @media (max-width: 1068px) {
   section#home {
     padding: 100px 0px;
