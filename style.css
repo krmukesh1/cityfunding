@@ -324,6 +324,15 @@ section#setting .billing td {
   padding: 10px 20px !important;
   font-family: "SFPRODISPLAYREGULAR";
 }
+section#setting a.sideactive {
+  color: #222;
+}
+.sidemenu ul li {
+  padding: 10px 0;
+}
+section#setting a {
+  color: #adb5bd;
+}
 @media (max-width: 1068px) {
   section#home {
     padding: 100px 0px;
