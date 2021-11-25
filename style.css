@@ -340,12 +340,12 @@ section#setting .contents {
 }
 .swiper-button-next {
   top: 15%;
-  right: 2rem;
+  right: 0rem;
 }
 
 .swiper-button-prev {
   top: 15%;
-  right: 5rem;
+  right: 3rem;
   left: auto;
 }
 .card {
