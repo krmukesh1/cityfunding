@@ -246,6 +246,9 @@ section#table th {
   color: #adb5bd;
   font-weight: 500;
 }
+section#table {
+  overflow: auto;
+}
 /* section#table th,
 section#table td {
   padding: 12px 0 !important;
@@ -327,8 +330,5 @@ section#download .content a {
   #box-right {
     left: 0%;
     width: 100%;
-  }
-  section#table {
-    overflow: auto;
   }
 }
