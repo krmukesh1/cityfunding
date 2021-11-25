@@ -246,6 +246,10 @@ section#table th {
   color: #adb5bd;
   font-weight: 500;
 }
+/* section#table th,
+section#table td {
+  padding: 12px 0 !important;
+} */
 section#table i.fa.fa-eye {
   font-size: 24px;
   padding: 0px 10px;
@@ -272,12 +276,11 @@ section#portfoliopage .table {
   margin-bottom: 0rem;
 }
 section#portfoliopage th {
-  width: 81px;
   color: #adb5bd;
   font-weight: 500;
 }
 section#portfoliopage th,
-td {
+section#portfoliopage td {
   padding: 12px 30px !important;
   border: 1px solid #cccccc;
 }
@@ -304,18 +307,7 @@ section#download .downloadbutton {
 section#download .content a {
   color: #222;
 }
-section#portfoliohistory th {
-  color: #adb5bd;
-  font-weight: 500;
-}
-section#portfoliohistory .table {
-  margin-bottom: 0rem;
-}
-section#portfoliohistory th,
-td {
-  padding: 12px 30px !important;
-  border: 1px solid #cccccc;
-}
+
 @media (max-width: 1068px) {
   section#home {
     padding: 100px 0px;
@@ -335,5 +327,8 @@ td {
   #box-right {
     left: 0%;
     width: 100%;
+  }
+  section#table {
+    overflow: auto;
   }
 }
