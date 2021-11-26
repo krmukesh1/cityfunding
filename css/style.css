@@ -37,6 +37,9 @@
 h1 {
   font-family: "SF-Pro-Display-Bold";
 }
+h2 {
+  font-family: "SF-Pro-Display-Semibold";
+}
 h3 {
   font-family: "SF-Pro-Display-Medium";
 }
@@ -359,11 +362,12 @@ section#setting .billing th {
   color: #adb5bd;
   font-weight: 500;
   padding: 10px 20px;
+  font-family: "SF-Pro-Display-Light";
 }
 
 section#setting .billing td {
   padding: 10px 20px !important;
-  font-family: "SFPRODISPLAYREGULAR";
+  font-family: "SF-Pro-Display-Medium";
 }
 section#setting a.sideactive {
   color: #222;
@@ -373,6 +377,7 @@ section#setting a.sideactive {
 }
 section#setting a {
   color: #adb5bd;
+  font-size: 14px;
 }
 section#setting .billing a {
   color: #0d6efd;
@@ -382,23 +387,41 @@ section#setting .contents {
   justify-content: space-between;
   align-items: center;
 }
+section#setting .contents small {
+  font-size: 14px;
+}
+section#setting .upgrade-contents a.btn {
+  border: 1px solid;
+  color: #0d6efd !important;
+  border-radius: 9px;
+  padding: 7px 20px;
+  font-size: 14px;
+  background: #fff;
+}
+section#setting .upgrade-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
 .swiper-button-next {
-  top: 15%;
+  top: 12%;
   right: 0rem;
 }
 
 .swiper-button-prev {
-  top: 15%;
-  right: 3rem;
+  top: 12%;
+  right: 2rem;
   left: auto;
 }
 .card {
-  height: 130px;
+  height: 150px;
+  border-radius: 18px;
 }
 .swiper-button-next,
 .swiper-button-prev {
-  height: 2rem;
-  width: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
   border: 1px solid #007aff;
   border-radius: 1rem;
   background: #fff;
@@ -406,10 +429,52 @@ section#setting .contents {
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 1rem;
+  font-size: 0.5rem;
+  font-weight: 600;
 }
 .card-slider {
-  padding: 50px 0;
+  padding: 0 0 50px 0;
+}
+section#setting h4 {
+  font-family: "SF-Pro-Display-Medium";
+  margin-bottom: 1rem;
+}
+a.btn.btn-borderd {
+  border: 1px solid #0d6efd;
+  color: #0d6efd !important;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  border-radius: 10px;
+  font-size: 14px;
+}
+section#setting h5 {
+  font-family: "SF-Pro-Display-bold";
+}
+section#setting .card a {
+  color: #fff;
+  font-size: 14px;
+}
+.card {
+  height: 150px;
+  border-radius: 18px;
+  background: #007aff;
+}
+.card h5 {
+  color: #fff;
+}
+div#remain {
+  background: #ecedee;
+}
+div#remain h5 {
+  color: #000;
+}
+div#rborder {
+  border-right: 2px solid #ecedee;
+  height: 100%;
+}
+div#rborder ul {
+  margin-top: 2rem;
 }
 @media (max-width: 1068px) {
   section#login .login-content {
