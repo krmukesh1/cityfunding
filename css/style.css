@@ -35,7 +35,7 @@
   src: url("/font/SF-Pro-Display-Heavy.otf");
 }
 h1 {
-  font-family: "SF-Pro-Display-Bold";
+  font-family: SF-Pro-Display-Bold;
 }
 h2 {
   font-family: "SF-Pro-Display-Semibold";
