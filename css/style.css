@@ -36,7 +36,6 @@
 }
 h1 {
   font-family: "SF-Pro-Display-Bold";
-  font-size: 2.2rem;
 }
 * {
   padding: 0;
@@ -47,14 +46,14 @@ h1 {
 
 a.navbar-brand {
   border: 1px solid #0d6efd;
-  border-radius: 17px;
+  border-radius: 15px;
   padding: 7px 35px;
-  margin: 10px;
+  margin: 11px;
 }
 a.nav-link.active {
   border: 1px solid #0d6efd;
-  padding: 10px 30px !important;
-  border-radius: 17px;
+  padding: 11px 30px !important;
+  border-radius: 15px;
   background: transparent;
   color: #000 !important;
 }
@@ -62,8 +61,8 @@ a.sign {
   border: 1px solid #0d6efd;
   background: #0d6efd;
   color: #fff !important;
-  border-radius: 17px;
-  padding: 10px 17px !important;
+  border-radius: 15px;
+  padding: 11px 25px !important;
 }
 li.nav-item {
   margin: 10px 10px;
@@ -88,7 +87,7 @@ i.fa.fa-cog {
   padding: 0px 20px;
 }
 section#home {
-  padding: 100px;
+  padding: 85px 300px;
 }
 section#home .content {
   max-width: 795px;
@@ -97,10 +96,10 @@ section#home .content {
   justify-content: center;
   margin: 0 auto;
 }
-section#home .content p.mb-3 {
+section#home .content small {
   opacity: 0.7;
 }
-section#home p.text-left {
+section#home p {
   text-align: left;
 }
 section#home input.form-control {
@@ -114,6 +113,9 @@ section#home .btn-check:focus + .btn,
 .btn:focus {
   outline: 0;
   box-shadow: none !important;
+}
+section#home form {
+  padding: 0;
 }
 section#home .input-group {
   padding: 13px;
@@ -129,9 +131,7 @@ section#home button.btn.btn-default {
 section#home i.fa.fa-search {
   margin-left: 15px;
 }
-p.mb-2 {
-  text-align: left;
-}
+
 /* login */
 section#login {
   padding: 0px 38px;
@@ -156,6 +156,9 @@ form {
 }
 .formcontent {
   padding: 100px 0 0 0;
+}
+.formcontent h1 {
+  font-size: 2.2rem;
 }
 .formcontent p.mb-5 {
   color: #c3c3cf;
@@ -406,7 +409,9 @@ section#setting .contents {
     padding: 65px 50px;
     width: 50%;
   }
-
+  section#home {
+    padding: 85px 150px;
+  }
   section#home button.btn.btn-default {
     background: #0d6efd;
     padding: 10px 15px;
@@ -428,6 +433,9 @@ section#setting .contents {
     padding: 0px 20px;
     display: flex;
     flex-basis: 50%;
+  }
+  section#home {
+    padding: 85px 0px;
   }
 }
 @media (max-width: 767px) {
