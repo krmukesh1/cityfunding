@@ -26,10 +26,7 @@
   font-family: "SF-Pro-Display-Medium";
   src: url("/font/SF-Pro-Display-Medium.otf");
 }
-@font-face {
-  font-family: SF-Pro-Display-Bold;
-  src: url("/font/SF-Pro-Display-Bold.ttf");
-}
+
 @font-face {
   font-family: "SF-Pro-Display-Heavy";
   src: url("/font/SF-Pro-Display-Heavy.otf");
