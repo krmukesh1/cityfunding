@@ -116,7 +116,7 @@ section#login {
   flex-basis: 50%;
 }
 section#login .login-content {
-  padding: 65px 135px;
+  padding: 65px 110px;
   width: 50%;
 }
 section#login span {
@@ -130,9 +130,12 @@ section#login span a {
   letter-spacing: 1px;
 }
 form {
-  padding: 100px 0;
+  padding: 0px 45px 0px 0;
 }
-form p.mb-5 {
+.formcontent {
+  padding: 100px 0 0 0;
+}
+.formcontent p.mb-5 {
   color: #c3c3cf;
 }
 section#login input.form-control {
@@ -381,9 +384,7 @@ section#setting .contents {
     padding: 65px 50px;
     width: 50%;
   }
-  form {
-    padding: 50px 0;
-  }
+
   section#home button.btn.btn-default {
     background: #0d6efd;
     padding: 10px 15px;
@@ -420,5 +421,8 @@ section#setting .contents {
     background: #f8f9fa;
     width: 100%;
     height: 50vh;
+  }
+  form {
+    padding: 0px 0 0px 0;
   }
 }
