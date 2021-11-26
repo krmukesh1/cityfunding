@@ -1,27 +1,37 @@
 @font-face {
-  font-family: "SFPRODISPLAYREGULAR";
-  src: url("fonts/SFPRODISPLAYREGULAR.woff");
+  font-family: "SF-Pro-Display-Black";
+  src: url("/font/SF-Pro-Display-Black.otf");
 }
 @font-face {
-  font-family: "SFPRODISPLAYMEDIUM";
-  src: url("fonts/SFPRODISPLAYMEDIUM.woff");
+  font-family: "SF-Pro-Display-Regular";
+  src: url("/font/SF-Pro-Display-Regular.otf");
 }
 @font-face {
-  font-family: "SFPRODISPLAYBOLD";
-  src: url("fonts/SFPRODISPLAYBOLD.woff");
+  font-family: "SF-Pro-Display-Semibold";
+  src: url("/font/SF-Pro-Display-Semibold.otf");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Medium";
+  src: url("/font/SF-Pro-Display-Medium.otf");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Bold";
+  src: url("/font/SF-Pro-Display-Bold.otf");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Heavy";
+  src: url("/font/SF-Pro-Display-Heavy.otf");
+}
+h1 {
+  font-family: "SF-Pro-Display-Bold";
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "SFPRODISPLAYREGULAR";
+  font-family: "SF-Pro-Display-Regular";
 }
-h1 {
-  font-family: "SFPRODISPLAYBOLD";
-}
-p {
-  font-family: "SFPRODISPLAYREGULAR";
-}
+
 a.navbar-brand {
   border: 1px solid #0d6efd;
   border-radius: 17px;
@@ -125,7 +135,6 @@ section#login span {
 }
 section#login span a {
   text-decoration: none;
-  font-family: "SFPRODISPLAYMEDIUM";
   font-weight: 600;
   letter-spacing: 1px;
 }
