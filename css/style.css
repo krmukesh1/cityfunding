@@ -1,18 +1,18 @@
 @font-face {
   font-family: "SF-Pro-Display-Ultralight";
-  src: url("/font/SF-Pro-Display-Ultralight.otf");
+  src: url("../font/SF-Pro-Display-Ultralight.otf");
 }
 @font-face {
   font-family: "SF-Pro-Display-Thin";
-  src: url("/font/SF-Pro-Display-Thin.otf");
+  src: url("../font/SF-Pro-Display-Thin.otf");
 }
 @font-face {
   font-family: "SF-Pro-Display-Light";
-  src: url("/font/SF-Pro-Display-Light.otf");
+  src: url("../font/SF-Pro-Display-Light.otf");
 }
 @font-face {
   font-family: "SF-Pro-Display-Black";
-  src: url("/font/SF-Pro-Display-Black.otf");
+  src: url("../font/SF-Pro-Display-Black.otf");
 }
 @font-face {
   font-family: "SF-Pro-Display-Regular";
@@ -20,22 +20,22 @@
 }
 @font-face {
   font-family: "SF-Pro-Display-Semibold";
-  src: url("/font/SF-Pro-Display-Semibold.otf");
+  src: url("../font/SF-Pro-Display-Semibold.otf");
 }
 @font-face {
   font-family: "SF-Pro-Display-Medium";
-  src: url("/font/SF-Pro-Display-Medium.otf");
+  src: url("../font/SF-Pro-Display-Medium.otf");
 }
 @font-face {
-  font-family: SF-Pro-Display-Bold;
+  font-family: "SF-Pro-Display-Bold";
   src: url("../font/SF-Pro-Display-Bold.ttf");
 }
 @font-face {
   font-family: "SF-Pro-Display-Heavy";
-  src: url("/font/SF-Pro-Display-Heavy.otf");
+  src: url("../font/SF-Pro-Display-Heavy.otf");
 }
 h1 {
-  font-family: SF-Pro-Display-Bold;
+  font-family: "SF-Pro-Display-Bold";
 }
 h2 {
   font-family: "SF-Pro-Display-Semibold";
