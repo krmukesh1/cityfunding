@@ -507,6 +507,16 @@ div#rborder ul {
     left: 0%;
     width: 100%;
   }
+  div#rborder h2 {
+    font-size: 1.4rem;
+  }
+  section#setting a {
+    color: #adb5bd;
+    font-size: 10px;
+  }
+  div#rborder ul {
+    margin-top: 0rem;
+  }
 }
 @media (max-width: 768px) {
   section#login .login-content {
