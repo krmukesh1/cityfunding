@@ -597,6 +597,15 @@ div#rborder ul {
   section#home {
     padding: 85px 0px;
   }
+  .sidemenu ul {
+    padding-left: 1rem !important;
+  }
+  .sidemenu ul li {
+    padding: 5px 0;
+  }
+  section#setting a {
+    font-size: 14px;
+  }
 }
 @media (max-width: 767px) {
   nav.navbar.navbar-expand-lg.navbar-light.p-4 {
@@ -644,5 +653,8 @@ div#rborder ul {
   .profile .avtar i.fa.fa-pencil {
     position: absolute;
     left: 20%;
+  }
+  section#setting a {
+    font-size: 16px;
   }
 }
