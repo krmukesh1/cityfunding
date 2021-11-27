@@ -107,6 +107,11 @@ i.fa.fa-cog {
   font-size: 24px;
   padding: 0px 20px;
 }
+ul.dropdown-menu.show {
+  box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+  border: 0;
+  width: 210px;
+}
 section#home {
   padding: 85px 300px;
 }
@@ -690,5 +695,25 @@ div#rborder ul {
     display: flex;
     justify-content: space-between;
     padding-left: 0rem !important;
+  }
+  section#filter .input-group {
+    padding: 6px 10px;
+    border-radius: 25px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+    margin: 8px 0;
+  }
+}
+@media (max-width: 450px) {
+  section#download .content {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#download .downloadbutton {
+    border: 1px solid #000aff;
+    padding: 8px 20px;
+    border-radius: 18px;
+    width: 114px;
+    display: flex;
   }
 }
