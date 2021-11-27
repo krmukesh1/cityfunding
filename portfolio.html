@@ -42,7 +42,30 @@
               ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Signup.html">Create account</a>
+              <div class="dropdown" id="headprofile">
+                <a
+                  class="d-inline-flex py-0 align-items-center"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    class="img-profile rounded-circle"
+                    src="../css/images/avtar.png"
+                  />
+                  <div class="profile-details d-lg-inline mr-2 text-right">
+                    <div class="fullname">Mukesh Kumar Singh</div>
+                    <div class="mail">
+                      <small> abc@braininventory.com</small>
+                    </div>
+                  </div>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="Login.html">Login</a></li>
+                  <li><a class="dropdown-item" href="Login.html">Logout</a></li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
