@@ -479,14 +479,65 @@ div#rborder ul {
 /* profile */
 .profile .form-group {
   display: flex;
-  margin: 20px 0;
+  margin: 35px 0;
 }
 .profile .name {
-  margin: 0 30px 0 0;
+  margin: 0 50px 0 0;
 }
 .profile input.input-group {
   border: 0;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #e6e6e6;
+  padding: 15px 0px;
+  width: 220px;
+}
+.profile label {
+  font-size: 19px;
+  font-family: "SF-Pro-Display-bold";
+}
+.profile ::placeholder {
+  color: #bebebe;
+}
+.profile .btn-primary {
+  color: #fff;
+  background-color: #000aff;
+  border-color: #000aff;
+  padding: 13px 33px;
+  font-size: 14px;
+  border-radius: 18px;
+}
+.profile span#password {
+  display: flex;
+  align-items: center;
+}
+.profile .avtar {
+  position: relative;
+}
+.profile .avtar img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile .avtar i.fa.fa-pencil {
+  position: absolute;
+  left: 9%;
+  top: 38%;
+  background: #000aff;
+  padding: 8px;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.profile .pheadcontent {
+  display: flex;
+}
+.profile .pheadcontent span {
+  margin-right: 10px;
+  color: #bebebe;
+  font-size: 18px;
+}
+.profile form {
+  padding: 35px 0 0 0;
 }
 @media (max-width: 1068px) {
   section#login .login-content {
@@ -533,6 +584,9 @@ div#rborder ul {
   }
 }
 @media (max-width: 767px) {
+  nav.navbar.navbar-expand-lg.navbar-light.p-4 {
+    padding: 0.5rem 0 !important;
+  }
   section#login {
     padding: 0px 20px;
     display: block;
@@ -548,5 +602,32 @@ div#rborder ul {
   }
   form {
     padding: 0px 0 0px 0;
+  }
+  div#rborder h2 {
+    font-size: 2rem;
+  }
+  div#rborder {
+    border-right: 0;
+    height: 100%;
+  }
+  .profile .pheadcontent {
+    display: block;
+  }
+  .profile .form-group {
+    display: block;
+    margin: 35px 0;
+  }
+  .profile .name {
+    margin: 0 10px;
+  }
+  .profile input.input-group {
+    border: 0;
+    border-bottom: 2px solid #e6e6e6;
+    padding: 15px 0px;
+    width: 100%;
+  }
+  .profile .avtar i.fa.fa-pencil {
+    position: absolute;
+    left: 20%;
   }
 }

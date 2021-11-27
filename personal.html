@@ -67,13 +67,19 @@
           </div>
           <div class="col-md-10">
             <div class="profile">
-              <span>you are signed in with</span>
-              <span>example@braininventory.com</span>
+              <div class="pheadcontent">
+                <span>You are signed in with </span>
+                <h5>example@braininventory.com</h5>
+              </div>
               <form action="#">
+                <div class="avtar">
+                  <h5>Profile Picture</h5>
+                  <img src="../css/images/avtar.png" alt="" />
+                  <i class="fa fa-pencil"></i>
+                </div>
                 <div class="form-group">
                   <div class="name">
                     <label for="name">Your name</label>
-
                     <input
                       type="text"
                       class="input-group"
@@ -110,11 +116,14 @@
                 <div class="form-group">
                   <div class="name">
                     <label for="name">Password</label>
-                    <input
-                      type="password"
-                      class="input-group"
-                      placeholder="Password"
-                    />
+                    <span id="password">
+                      <input
+                        type="password"
+                        class="input-group"
+                        placeholder="Password"
+                      />
+                      <i class="fa fa-eye"></i>
+                    </span>
                   </div>
                 </div>
                 <div class="btn-group">
