@@ -440,10 +440,10 @@ section#setting .upgrade-contents {
 .swiper-button-prev {
   height: 1.5rem;
   width: 1.5rem;
-  border: 1px solid #007aff;
+  border: 1px solid #000aff;
   border-radius: 1rem;
   background: #fff;
-  color: #007aff;
+  color: #000aff;
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {
@@ -476,7 +476,7 @@ section#setting .card a {
 .card {
   height: 150px;
   border-radius: 18px;
-  background: #007aff;
+  background: #000aff;
 }
 .card h5 {
   color: #fff;
@@ -593,6 +593,9 @@ div#rborder ul {
   }
 }
 @media (max-width: 1000px) {
+  a.nav-link.home {
+    border-bottom: 0;
+  }
   .sidemenu ul {
     padding-left: 1rem !important;
   }
