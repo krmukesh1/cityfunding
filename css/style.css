@@ -683,7 +683,7 @@ div#rborder ul {
     font-size: 20px;
   }
   div#rborder ul {
-    margin-top: 0remrem;
+    margin-top: 0rem;
     display: flex;
     justify-content: space-between;
     padding-left: 0rem !important;
