@@ -51,21 +51,21 @@ h3 {
 }
 
 a.navbar-brand {
-  border: 1px solid #0d6efd;
+  border: 1px solid #000aff;
   border-radius: 15px;
   padding: 7px 35px;
   margin: 11px;
 }
 a.nav-link.active {
-  border: 1px solid #0d6efd;
+  border: 1px solid #000aff;
   padding: 11px 30px !important;
   border-radius: 15px;
   background: transparent;
   color: #000 !important;
 }
 a.sign {
-  border: 1px solid #0d6efd;
-  background: #0d6efd;
+  border: 1px solid #000aff;
+  background: #000aff;
   color: #fff !important;
   border-radius: 15px;
   padding: 11px 25px !important;
@@ -77,7 +77,7 @@ a {
   text-decoration: none;
 }
 a.nav-link.home {
-  color: #0d6efd !important;
+  color: #000aff !important;
   text-decoration: none;
   border-bottom: 1px solid;
   padding-bottom: 0px;
@@ -144,13 +144,15 @@ section#home .input-group {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 section#home button.btn.btn-default {
-  background: #0d6efd;
-  padding: 17px 40px;
+  background: #000aff;
+  padding: 19px 40px;
   border-radius: 20px !important;
   color: #fff;
+  font-size: 14px;
 }
 section#home i.fa.fa-search {
   margin-left: 15px;
+  font-size: 12px;
 }
 
 /* login */
@@ -198,13 +200,13 @@ section#login .form-control:hover {
 }
 section#login .form-control:focus {
   box-shadow: none !important;
-  border-color: #0d6efd;
+  border-color: #000aff;
 }
 section#login .input-group:focus-within {
-  border-color: #0d6efd;
+  border-color: #000aff;
 }
 label.email:focus-within {
-  color: #0d6efd !important;
+  color: #000aff !important;
 }
 label.email,
 label.password {
@@ -289,14 +291,15 @@ section#filter .input-group {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 section#filter button.btn.btn-default {
-  background: #0d6efd;
-  padding: 11px 20px;
+  background: #000aff;
+  padding: 14px 29px;
   border-radius: 19px !important;
   color: #fff;
-  font-size: 14px;
+  font-size: 10px;
 }
 section#filter i.fa.fa-search {
-  margin-left: 15px;
+  margin-left: 10px;
+  font-size: 10px;
 }
 section#table th {
   width: 81px;
@@ -360,7 +363,7 @@ section#download .content {
   align-items: center;
 }
 section#download .downloadbutton {
-  border: 1px solid #0d6efd;
+  border: 1px solid #000aff;
   padding: 8px 20px;
   border-radius: 18px;
 }
@@ -395,7 +398,7 @@ section#setting a {
   font-size: 14px;
 }
 section#setting .billing a {
-  color: #0d6efd;
+  color: #000aff;
 }
 section#setting .contents {
   display: flex;
@@ -407,7 +410,7 @@ section#setting .contents small {
 }
 section#setting .upgrade-contents a.btn {
   border: 1px solid;
-  color: #0d6efd !important;
+  color: #000aff !important;
   border-radius: 9px;
   padding: 7px 20px;
   font-size: 14px;
@@ -455,8 +458,8 @@ section#setting h4 {
   margin-bottom: 1rem;
 }
 a.btn.btn-borderd {
-  border: 1px solid #0d6efd;
-  color: #0d6efd !important;
+  border: 1px solid #000aff;
+  color: #000aff !important;
   display: flex;
   justify-content: center;
   margin: 20px 0;
@@ -568,7 +571,7 @@ div#rborder ul {
     padding: 85px 150px;
   }
   section#home button.btn.btn-default {
-    background: #0d6efd;
+    background: #000aff;
     padding: 10px 15px;
     border-radius: 20px !important;
     color: #fff;
@@ -589,7 +592,21 @@ div#rborder ul {
     margin-top: 0rem;
   }
 }
+@media (max-width: 1000px) {
+  .sidemenu ul {
+    padding-left: 1rem !important;
+  }
+  .sidemenu ul li {
+    padding: 5px 0;
+  }
+  section#setting a {
+    font-size: 14px;
+  }
+}
 @media (max-width: 768px) {
+  .formcontent h1 {
+    font-size: 1.8rem;
+  }
   section#login .login-content {
     padding: 50px 10px;
     width: 50%;
@@ -602,17 +619,12 @@ div#rborder ul {
   section#home {
     padding: 85px 0px;
   }
-  .sidemenu ul {
-    padding-left: 1rem !important;
-  }
-  .sidemenu ul li {
-    padding: 5px 0;
-  }
-  section#setting a {
-    font-size: 14px;
-  }
 }
 @media (max-width: 767px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
   nav.navbar.navbar-expand-lg.navbar-light.p-4 {
     padding: 0.5rem 0 !important;
   }
@@ -660,6 +672,20 @@ div#rborder ul {
     left: 20%;
   }
   section#setting a {
-    font-size: 16px;
+    font-size: 24px;
+  }
+  .profile .pheadcontent h5 {
+    margin-top: 16px;
+  }
+  .profile .pheadcontent span {
+    margin-right: 10px;
+    color: #bebebe;
+    font-size: 20px;
+  }
+  div#rborder ul {
+    margin-top: 0remrem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0rem !important;
   }
 }
