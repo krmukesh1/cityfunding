@@ -552,7 +552,12 @@ div#rborder ul {
   font-size: 18px;
 }
 .profile form {
-  padding: 35px 0 0 0;
+  padding: 35px 0;
+}
+@media (max-width: 1200px) {
+  section#home {
+    padding: 85px 200px;
+  }
 }
 @media (max-width: 1068px) {
   section#login .login-content {
