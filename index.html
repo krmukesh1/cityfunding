@@ -39,7 +39,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link sign" href="Signup.html">Create account</a>
+              <a class="nav-link sign" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Create account</a>
             </li>
            
           </ul>
@@ -58,7 +58,7 @@
        
                 <div class="login-homepage">
                   <span>Don't have account?</span>
-                  <a href="Signup.html">Create account</a>
+                  <a href="#staticBackdrop1">Create account</a>
                   <div class="formcontents">
                     <h1 class="mb-3 mt-3">Login to your account</h1>
                     <p class="mb-3">
@@ -93,6 +93,78 @@
                     </div>
                     <div class="btn-group">
                       <button class="btn-primary" type="submit">Login</button>
+                    </div>
+                    
+                    <div class="google-btn">
+                      <p>Or Connect with:</p>
+                      <div class="btn-group">
+                    <i class="fa fa-google"></i>
+                      <a href="#">Continue with Google</a>
+                    </div>
+                    </div>
+                  </form>
+                </div>
+              
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+       
+                <div class="login-homepage">
+                  <span>Have an account?</span>
+                  <a href="#staticBackdrop">Login</a>
+                  <div class="formcontents">
+                    <h1 class="mb-3 mt-3">Login to your account</h1>
+                    <p class="mb-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+                      doloremque natus 
+                    </p>
+                  </div>
+                  <form>
+                    <div class="input-group">
+                      <label class="email" for="email">Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="abc@braininventory.com"
+                        name="email"
+                        autocomplete="off"
+                      />
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="input-group">
+                      <label class="password" for="password">Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="password"
+                        name="password"
+                      />
+                      <i class="fa fa-eye"></i>
+                    </div>
+                    <div class="input-group">
+                      <label class="password" for="password">Confirm Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Confirm Password"
+                        name="password"
+                      />
+                      <i class="fa fa-eye"></i>
+                    </div>
+                    <div class="forget-password">
+                        <a href="#">Forget password</a>
+                    </div>
+                    <div class="btn-group">
+                      <button class="btn-primary" type="submit">Create an account</button>
                     </div>
                     
                     <div class="google-btn">
