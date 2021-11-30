@@ -480,6 +480,12 @@ section#table tr:nth-child(n + 3) {
 section#table td {
   padding: 12px 0 !important;
 } */
+section#table a.fa.fa-eye {
+  font-size: 24px;
+  padding: 0px 10px;
+  cursor: pointer;
+  color: #000;
+}
 section#table i.fa.fa-eye {
   font-size: 24px;
   padding: 0px 10px;
@@ -513,6 +519,12 @@ section#portfoliopage th,
 section#portfoliopage td {
   padding: 12px 30px !important;
   border: 1px solid #cccccc;
+}
+section#portfoliopage a.fa.fa-eye {
+  font-size: 24px;
+  padding: 0px 10px;
+  cursor: pointer;
+  color: #000;
 }
 section#portfoliopage i.fa.fa-eye {
   font-size: 24px;
