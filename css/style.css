@@ -156,14 +156,14 @@ section#home .input-group {
   color: #fff;
   font-size: 14px;
 } */
-section#home a {
+section#home a.filterlink {
   background: #000aff;
   padding: 19px 40px;
   border-radius: 20px !important;
   color: #fff;
   font-size: 14px;
 }
-section#home a:hover {
+section#home a.filterlink:hover {
   color: #fff;
 }
 section#home i.fa.fa-search {
