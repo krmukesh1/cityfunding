@@ -149,12 +149,22 @@ section#home .input-group {
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
-section#home button.btn.btn-default {
+/* section#home button.btn.btn-default {
   background: #000aff;
   padding: 19px 40px;
   border-radius: 20px !important;
   color: #fff;
   font-size: 14px;
+} */
+section#home a {
+  background: #000aff;
+  padding: 19px 40px;
+  border-radius: 20px !important;
+  color: #fff;
+  font-size: 14px;
+}
+section#home a:hover {
+  color: #fff;
 }
 section#home i.fa.fa-search {
   margin-left: 15px;
