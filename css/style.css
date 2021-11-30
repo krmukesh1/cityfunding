@@ -186,6 +186,14 @@ button.btn-close {
   border: 0;
   padding: 10px 15px 5px;
 }
+.modal-header .btn-close:focus {
+  outline: 0;
+  box-shadow: none;
+  opacity: 0.5;
+}
+.modal-body {
+  cursor: pointer;
+}
 .modal-body span {
   margin-right: 10px;
   color: #c3c3cf;
@@ -287,7 +295,16 @@ label.password {
   align-items: center;
   font-size: 24px;
 
-  background: linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+  background: linear-gradient(
+    #fbbc05,
+    #ea4335,
+    #fbbc05,
+    #fbbc05,
+    #4285f4,
+    #4285f4,
+    #34a853,
+    #34a853
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -445,6 +462,9 @@ section#table th {
 }
 section#table {
   overflow: auto;
+}
+section#table tr:nth-child(n + 3) {
+  filter: blur(0.5rem);
 }
 /* section#table th,
 section#table td {
