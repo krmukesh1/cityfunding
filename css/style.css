@@ -170,6 +170,9 @@ section#home i.fa.fa-search {
   margin-left: 15px;
   font-size: 12px;
 }
+.navs {
+  display: none !important;
+}
 /* dialigbox */
 .modal-dialog {
   margin: 6rem auto;
@@ -203,6 +206,10 @@ button.btn-close {
 }
 .modal-body {
   cursor: pointer;
+}
+.modal.fade .modal-dialog {
+  transition: transform 0.3s ease-out;
+  transform: translate(0, 0px);
 }
 .modal-body span {
   margin-right: 10px;

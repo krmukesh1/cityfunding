@@ -34,21 +34,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#staticBackdrop" 
+              <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#loginModal" 
                 >Login</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link sign" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Create account</a>
+              <a class="nav-link sign" data-bs-toggle="modal" data-bs-target="#signupModal">Create account</a>
             </li>
            
           </ul>
         </div>
       </div>
     </nav>
+  
+    
     <!-- home Page -->
     <section id="home">
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -58,7 +60,7 @@
        
                 <div class="login-homepage">
                   <span>Don't have account?</span>
-                  <a data-bs-target="#staticBackdrop1" data-bs-toggle="modal" >Create account</a>
+                  <a  data-bs-target="#signupModal" data-bs-toggle="modal" >Create account</a>
                   <div class="formcontents">
                     <h1 class="mb-3 mt-3">Login to your account</h1>
                     <p class="mb-3">
@@ -110,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal fade " id="signupModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -120,7 +122,7 @@
        
                 <div class="login-homepage">
                   <span>Have an account?</span>
-                  <a data-bs-target="#staticBackdrop" data-bs-toggle="modal">Sign In</a>
+                  <a data-bs-target="#loginModal" data-bs-toggle="modal">Sign In</a>
                   <div class="formcontents">
                     <h1 class="mb-3 mt-3">Welcome to City Funding</h1>
                     <p class="mb-3">
@@ -208,5 +210,16 @@
       </div>
     </section>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $('#loginModal').on('shown.bs.modal', function() {
+            $('#signupModal').modal('hide');
+        });
+        $('#signupModal').on('shown.bs.modal', function() {
+            $('#loginModal').modal('hide');
+        });
+
+
+  </script>
   </body>
 </html>
